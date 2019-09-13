@@ -5,7 +5,7 @@ const fs = require('fs')
 const domain = 'https://www.reddit.com'
 const mainURL = domain + '/r/wallpaper/'
 const extensions = ['.jpg', '.png']
-const location = 'C:\\Users\\jpsneto\\Pictures\\Wallpapper\\'
+const location = './images/'
 
 
 async function fetchHtmlMainPage() {
